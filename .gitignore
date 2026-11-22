@@ -1,0 +1,24 @@
+# Virtual Environment (Must be ignored: 4.7 GB with files > 100MB)
+venv/
+env/
+.env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output text log (optional runtime output)
+results/recognized_output.txt
